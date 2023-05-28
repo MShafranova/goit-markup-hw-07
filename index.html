@@ -134,28 +134,35 @@
             <li class="about-list-item">
               <img
                 class="about-img"
+                srcset="./images/Features/img-computer.jpg 1x, .images/Features/img-computer@2x.jpg x2"
                 src="./images/Features/img-computer.jpg"
                 alt="Computer with open website"
                 width="360"
                 height="300"
+                loading="lazy"
               />
+              
             </li>
             <li class="about-list-item">
               <img
                 class="about-img"
+                srcset="./images/Features/img-app.jpg 1x, .images/Features/img-app@2x.jpg x2"
                 src="./images/Features/img-app.jpg"
                 alt="Phone-application"
                 width="360"
                 height="300"
+                loading="lazy"
               />
             </li>
             <li class="about-list-item">
               <img
                 class="about-img"
+                srcset="./images/Features/img-phone.jpg 1x, .images/Features/img-phone@2x.jpg x2"
                 src="./images/Features/img-phone.jpg"
                 alt="Telephone with open application"
                 width="360"
                 height="300"
+                loading="lazy"
               />
             </li>
           </ul>
@@ -169,10 +176,12 @@
             <li class="team-list-item">
               <img
                 class="team-item-img"
+                srcset="./images/Team/img-mark.jpg 1x, ./images/Team/img-mark@2x.jpg 2x"
                 src="./images/Team/img-mark.jpg"
                 alt="Smiling man with  dark beard and mustache"
                 width="264"
                 height="260"
+                loading="lazy"
               />
               <div class="team-worker-info">
                 <h3 class="team-item-title list-item-title">Mark Guerrero</h3>
@@ -216,10 +225,12 @@
             <li class="team-list-item">
               <img
                 class="team-item-img"
+                srcset="./images/Team/img-tom.jpg 1x, ./images/Team/img-tom@2x.jpg 2x"
                 src="./images/Team/img-tom.jpg"
                 alt="Smiling man with light beard in blue shirt"
                 width="264"
                 height="260"
+                loading="lazy"
               />
               <div class="team-worker-info">
                 <h3 class="team-item-title list-item-title">Tom Ford</h3>
@@ -263,10 +274,12 @@
             <li class="team-list-item">
               <img
                 class="team-item-img"
+                srcset="./images/Team/img-camila.jpg 1x, ./images/Team/img-camila@2x.jpg 2x"
                 src="./images/Team/img-camila.jpg"
                 alt="Smiling woman with dark hair in pink shirt"
                 width="264"
                 height="260"
+                loading="lazy"
               />
               <div class="team-worker-info">
                 <h3 class="team-item-title list-item-title">Camila Garcia</h3>
@@ -310,10 +323,12 @@
             <li class="team-list-item">
               <img
                 class="team-item-img"
+                srcset="./images/Team/img-daniel.jpg 1x, ./images/Team/img-daniel@2x.jpg 2x"
                 src="./images/Team/img-daniel.jpg"
                 alt="Smiling man with dark beard in grey shirt"
                 width="264"
                 height="260"
+                loading="lazy"
               />
               <div class="team-worker-info">
                 <h3 class="team-item-title list-item-title">Daniel Wilson</h3>
@@ -410,7 +425,7 @@
     </main>
 
     <!-- Footer section-->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container ">
           <div class="footer-logo-container">
             <a class="footer-logo link" href="./index.html">Web<span class="logo-studio-footer">Studio</span></a>
@@ -472,10 +487,10 @@
           </div>
       </div>
       
-    </footer> -->
+    </footer>
 
     <!-- Modal -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -525,7 +540,7 @@
           <button class="modal-send-btn" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     
     <!-- Mobile menu -->
     <div class="menu-container js-menu-container" id="mobile-menu">
@@ -544,7 +559,7 @@
         <li class="mob-contact-item mob-menu-tel"><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
         <li class="mob-contact-item mob-menu-mail"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
       </ul>
-      <ul class="list icon-footer-list">
+      <ul class="list icon-footer-list icon-menu-list">
         <li class="icon-footer-item">
           <a href="" class="link footer-media-link" target="_blank" rel="noreferrer noopener" aria-label="instagram icon">
             <svg class="icon-footer-media" width="24" height="24">
@@ -553,7 +568,7 @@
             </svg>
           </a>
         </li>
-        <li class="icon-footer-item">
+        <li class="icon-footer-item ">
           <a href="" class="link footer-media-link" target="_blank" rel="noreferrer noopener" aria-label="twitter icon">
             <svg class="icon-footer-media" width="24" height="24">
               <use href="./images/icons.svg#twitter">
